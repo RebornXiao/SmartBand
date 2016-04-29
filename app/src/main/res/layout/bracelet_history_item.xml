@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+        <TextView 
+            android:id="@+id/tvdate"
+            android:layout_width="0sp"
+            android:layout_weight="1.2"
+            android:layout_height="wrap_content"
+            android:text="2014-08-04"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="20dp"/>
+        <TextView 
+            android:id="@+id/tvfinish"
+            android:layout_width="0sp"
+            android:layout_weight="1.0"
+            android:layout_height="wrap_content"
+            android:text="9000"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textSize="20dp"/>
+        <TextView 
+            android:id="@+id/tvfinishRate"
+            android:layout_width="0sp"
+            android:layout_weight="1.0"
+            android:textColor="#000000"
+            android:layout_height="wrap_content"
+            android:text="85%"
+            android:gravity="center"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+</LinearLayout>

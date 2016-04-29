@@ -1,0 +1,25 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 15
+    buildToolsVersion '21.1.2'
+
+    defaultConfig {
+        applicationId "com.xiao.smartband"
+        minSdkVersion 14
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile files('libs/android-async-http-1.4.5.jar')
+    compile files('libs/android-support-v4.jar')
+}

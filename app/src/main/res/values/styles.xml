@@ -1,0 +1,102 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+<!-- <style name="like_toast_dialog_style">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@drawable/round_background</item>
+    </style> -->
+    <style name="Text.Title" parent="@style/Text">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="Text">
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+ 
+    
+    <!-- <style name="arrorUpStyle"	parent="@android:style/Widget.ProgressBar.Large">
+		<item name="android:indeterminateDrawable">@anim/arror_up_progress</item>
+	</style> -->
+	
+	<!-- <style name="arrorDownStyle"	parent="@android:style/Widget.ProgressBar.Large">
+		<item name="android:indeterminateDrawable">@anim/arror_down_progress</item>
+	</style> -->
+	
+	<!-- <style name="deviceLinkStyle" parent="@android:style/Widget.ProgressBar.Large">
+        <item name="android:indeterminateDrawable">@anim/device_link_progress</item>
+    </style> -->
+
+	<!-- <style name="progressBarStyle"	parent="@android:style/Widget.ProgressBar.Large">
+		<item name="android:indeterminateDrawable">@anim/progress_bar_default</item>
+	</style> -->
+	
+	<!-- <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>边框
+        <item name="android:windowIsFloating">true</item>是否浮现在activity之上
+        <item name="android:windowIsTranslucent">false</item>半透明
+        <item name="android:windowNoTitle">true</item>无标题
+        <item name="android:windowBackground">@color/transparent</item>背景透明
+        <item name="android:backgroundDimEnabled">true</item>模糊
+    </style> -->
+    
+	<!-- <style name="cbx_default" parent="@android:style/Widget.CompoundButton.CheckBox">  
+    <item name="android:button">@drawable/bg_cbx_default</item>  
+	</style> -->
+	
+	<!-- <style name="cbx_point_default" parent="@android:style/Widget.CompoundButton.CheckBox">  
+    <item name="android:button">@drawable/bg_cbx_point_default</item>  
+	</style> -->
+	
+	<!-- <style name="Theme.UMDefault" parent="android:style/Theme.NoTitleBar"></style>
+	
+	<style name="mystyle" parent="@android:style/Widget.CompoundButton.CheckBox">
+    <item name="android:button">@anim/mycheck_selection</item>
+    <item name="android:paddingLeft">25.0dip</item>
+    <item name="android:maxHeight">10.0dip</item>
+   </style> -->
+   <style name="Theme.UMDefault" parent="android:style/Theme.NoTitleBar"></style>
+	
+	<style name="mystyle" parent="@android:style/Widget.CompoundButton.CheckBox">
+    <item name="android:button">@drawable/register_check</item>
+    <!-- <item name="android:paddingLeft">25.0dip</item>
+    <item name="android:maxHeight">10.0dip</item> -->
+   </style>
+   
+	
+	<style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">false</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowBackground">@color/transparent</item><!--背景透明-->
+        <item name="android:backgroundDimEnabled">true</item><!--模糊-->
+    </style>
+    <style name="AnimationPreview">  
+        <item name="android:windowEnterAnimation">@drawable/open</item>  
+        <item name="android:windowExitAnimation">@drawable/close</item>  
+    </style> 
+</resources>

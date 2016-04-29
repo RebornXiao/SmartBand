@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+    	android:background="#D3D3D3">
+        <Button 
+        android:id="@+id/btnsure"
+		android:layout_width="wrap_content"
+		android:layout_height="48dp"
+		android:layout_gravity="right"
+		android:textSize="18dp"
+		android:layout_marginTop="3dp"
+		android:text="确定"
+		/>
+    <com.bt.elderbracelet.view.WheelView 
+            android:id="@+id/wvAge"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp"
+			/>
+    </LinearLayout>
+    
+</RelativeLayout>
